@@ -42,6 +42,9 @@ components: material design
 * Run development server:
     > $ npm start
 
+* Open this URL
+    > https://localhost/rbrsk/editUser
+
 ### To build package
     development
     > $ npm run build_dev
