@@ -1,5 +1,5 @@
 # React-babel-redux-starter-kit
-React babel redux starter kit is a project template using React.js, Babel, and Redux
+React babel redux starter kit is a project template using React.js, Babel, and Redux.
 
 ### Node version
 node : v7.0.0  
@@ -8,28 +8,32 @@ npm  : 3.10.8
 ### Nginx configuration
 * add these configurations to ssl.conf
   production
-    > location / {
-    >     proxy_pass http://127.0.0.1:8897/;
-    > }
+```
+location / {
+   proxy_pass http://127.0.0.1:8897/;
+}
+```
 
-  local
-    > location ~\* ^/rbrsk/(.\*) {
-    >     proxy_pass http://127.0.0.1:8896/$1$is_args$args;
-    >     proxy_redirect http:// https://;
-    >     client_max_body_size 2g;
-    > }
+  local 
+```
+location ~* ^/rbrsk/(.*) {
+   proxy_pass http://127.0.0.1:8896/$1$is_args$args;
+   proxy_redirect http:// https://;
+   client_max_body_size 2g;
+}
+```
 
 
 ### Modules
-language : babel
-core : react  
-flux : redux  
-routing : react-router  
-async : axios  
-css : sass  
+css      : sass  
+core     : react  
+flux     : redux  
+async    : axios  
+routing  : react-router  
+language : babel  
+unit test   : mocha and chai  
+components  : material design  
 task runner : webpack  
-unit test: mocha and chai  
-components: material design
 
 ### To run
 * Clone this repository:
