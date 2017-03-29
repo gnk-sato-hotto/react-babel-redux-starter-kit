@@ -37,24 +37,25 @@ task runner : webpack
 
 ### To run
 * Clone this repository:
-    > $ git clone THIS_REPO_URL
+    > git clone THIS_REPO_URL
 
 * Then install the dependencies:
-    > $ npm install  
-    > $ npm i --save --unsafe-perm node-sass
+    > npm install  
+    > npm i --save --unsafe-perm node-sass
 
 * Run development server:
-    > $ npm start
+    > npm start
 
 * Open this URL
     > https://localhost/rbrsk/editUser
 
 ### To build package
-    development
-    > $ npm run build_dev
-
     production
-    > $ npm run build
+    > npm run build 
+
+    development
+    > npm run build_dev
+
 
 ### Eslint
     > npm install --save-dev eslint eslint-plugin-react
