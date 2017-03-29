@@ -26,7 +26,7 @@ export const asyncHelper = {
       'Content-Type':  'application/json',
       'Authorization': 'token',
     };
-    const instance = axios.create({
+    return axios.create({
       baseURL: url,
       timeout,
       headers,
