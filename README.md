@@ -32,7 +32,7 @@ async    : axios
 routing  : react-router  
 language : babel  
 unit test   : mocha and chai  
-components  : material design & Atomic Design
+components  : material design & Atomic Design  
 task runner : webpack  
 
 ### To run
