@@ -7,12 +7,6 @@ npm  : 3.10.8
 
 ### Nginx configuration
 * add these configurations to ssl.conf
-  production
-```
-location / {
-   proxy_pass http://127.0.0.1:8897/;
-}
-```
 
   local 
 ```
